@@ -2,18 +2,41 @@
 
 GANs belong to a class of neural networks - Generative Netwokrs
 
-## What are types of models models?
+- Mojorly used for enerating realistic images
+- Made up of two neural networks which are competing with each other
+    - **Generator Network:** Used for generation
+    - **Discriminator Network:** Used to determine if the generated image is a real or a fake
+- [ Understand GANs better](https://arxiv.org/pdf/1406.2661)
 
-- ***Deterministic model:***  A statistical model that determines boundaries in the observed data and uses these boundaries to make decisions or predictions.
-- ***Generative model:*** Describes how a dataset is generated in terms of probablistc model and sampling from the model allows to generate new data that did not exist.
+---
 
-| **Aspect** | **Deterministic Model** | **Generative Model** |
-| --- | --- | --- |
-| **Definition** | A statistical model that determines boundaries in the observed data and uses these boundaries to make decisions or predictions. | Describes how a dataset is generated in terms of a probabilistic model, and sampling from the model allows generating new data that did not exist. |
-| **Nature of Prediction** | Makes fixed predictions based on specific input. | Makes probabilistic predictions and can generate new data points. |
-| **Data Handling** | Focuses on patterns in the observed data and does not account for uncertainty. | Models the underlying process that generates the data, accounting for uncertainty. |
-| **Goal** | To find a clear boundary or decision rule to classify or predict. | To understand the data distribution and generate new instances. |
-| **Example** | Decision trees, linear regression. | Gaussian Mixture Models (GMM), Variational Autoencoders (VAE). |
-| **Uncertainty** | No inherent uncertainty; predictions are deterministic. | Inherently accounts for uncertainty in predictions. |
-| **Output** | A specific prediction or classification. | New data samples or a distribution from which data can be sampled. |
-| **Data Generation** | Does not generate new data. | Can generate new data similar to the observed data. |
+## Generator - Discriminator Network
+
+These two neural networks ompete with one another to become more accurate in their predictions
+
+- **Generator Network:** 
+    - This network is responsible for generation of realistic data
+    - Can generate any sort of data based on training data
+    - Learns to generate plausble data
+    - Improves the quality of samples during the training process i.e. with time it generates better data
+
+- **Discriminator Network:**
+    - A simple classification Model performing binary classification (Real or Fake)
+    - Takes input samples from real dataset and from the generator network and figures out which samples are real or fake
+    - Learns to distinguish he generator's fake data from real data
+    - Forces Generator to improve whenever it correctly distinguishes the generated data from real data
+
+- ** Initialy in the training process its easy for the Discriminator to distinguish between fake and real data but during the training process its ability falls steadily as generator learns to develop better data.**
+
+- Architecture of GANs
+![This image shows the architecture of GANs](archGAN.png)
+
+---
+
+## Applications of GANs
+
+- Generating realistic images
+- Text to Image translation
+- Photo Inpainting
+- Generating 3D objects from 2D images
+- Synthetic data generation
