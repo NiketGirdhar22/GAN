@@ -26,9 +26,10 @@ These two neural networks ompete with one another to become more accurate in the
     - Learns to distinguish he generator's fake data from real data
     - Forces Generator to improve whenever it correctly distinguishes the generated data from real data
 
-- ** Initialy in the training process its easy for the Discriminator to distinguish between fake and real data but during the training process its ability falls steadily as generator learns to develop better data.**
+- *** Initialy in the training process its easy for the Discriminator to distinguish between fake and real data but during the training process its ability falls steadily as generator learns to develop better data ***
 
 - Architecture of GANs
+
 ![This image shows the architecture of GANs](archGAN.png)
 
 ---

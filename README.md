@@ -17,4 +17,5 @@
 | **Data Generation** | Does not generate new data. | Can generate new data similar to the observed data. |
 
 Generative Advesarial Networks called as GANs for short - [GAN Fundamentals](gan_overview.md)
+
 Denoising Diffusion Probablistic Models / Diffusion Models - [Diffusion Model Fundamentals](diffusion_models_overview.md)
