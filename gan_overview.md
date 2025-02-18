@@ -32,6 +32,20 @@ These two neural networks ompete with one another to become more accurate in the
 
 ![This image shows the architecture of GANs](archGAN.png)
 
+
+***The choice of Loss Function is very critical in the GAN model***
+
+---
+
+## Problems with GANs
+
+- ***Vanishing Gradients:*** During training, the gradients from the discriminator can become very small, leading to no effective learning in the generator
+    - Can be reduced by using better loss functions
+- ***Mode Collapse:*** Generator ends up generating only a certain subset of the input dataset after understaing the discriminator weighs
+    - Can be reduced by using improved loss functions, Unrolled GANs
+- ***Failure to Converge:*** The training process does not lead to a stable equilibrium, resulting in poor-quality generated data. The generator and discriminator do not reach a point where neither can improve further
+    - Can be reduced by adding noise to the discriminator input, penalizing the disciminator weights so as the feedback from discriminator is not random
+
 ---
 
 ## Applications of GANs
