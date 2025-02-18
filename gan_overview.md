@@ -55,3 +55,9 @@ These two neural networks ompete with one another to become more accurate in the
 - Photo Inpainting
 - Generating 3D objects from 2D images
 - Synthetic data generation
+
+---
+
+## Codes
+
+- [Building GAN using Dense Neural Network](gan_denseNN.ipynb)
