@@ -30,7 +30,7 @@ These two neural networks ompete with one another to become more accurate in the
 
 - Architecture of GANs
 
-![This image shows the architecture of GANs](archGAN.png)
+![This image shows the architecture of GANs](images/archGAN.png)
 
 
 ***The choice of Loss Function is very critical in the GAN model***
