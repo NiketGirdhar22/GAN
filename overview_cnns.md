@@ -10,6 +10,7 @@
     ***Size of output image is o given as:***
 
 $o = \frac{i + 2p - k}{2} + 1$
+
 where o = output image size; p = padding size; i = input image size; k = size of kernel; s = stride
 
 ![The image shows how convolutional layer generates output](images/output_feature_map.png)
@@ -30,6 +31,4 @@ where o = output image size; p = padding size; i = input image size; k = size of
 - **Transposed Convolutional Layer:** Used to perform upsampling of input data i.e. feature map has greater spacial dimensions than that of input feature map
 ![The image shows how the Transposed Convolutional Layer generates its output](images/transposedCL.png)
     ***Size of output image is o given as:***
-$$
-o = \frac{i + 2p - k}{2} + 1
-$$ 
+$o = (i - 1) \times s + k - 2p$
