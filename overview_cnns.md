@@ -32,3 +32,13 @@ where o = output image size; p = padding size; i = input image size; k = size of
 ![The image shows how the Transposed Convolutional Layer generates its output](images/transposedCL.png)
     ***Size of output image is o given as:***
 $o = (i - 1) \times s + k - 2p$
+
+---
+
+### Deep CNN GANs
+
+- The architecture os Deep CNN GAN is similar to an ordinary GAN except the fact that both adveseries [Generator and Discriminator] are CNNs with some archtectural constrains which help the pair to learn and create better generated images
+
+- [About Deep CNN based GANs in detail](https://arxiv.org/pdf/1511.06434)
+
+- 

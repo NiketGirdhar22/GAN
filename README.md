@@ -16,8 +16,8 @@
 | **Output** | A specific prediction or classification. | New data samples or a distribution from which data can be sampled. |
 | **Data Generation** | Does not generate new data. | Can generate new data similar to the observed data. |
 
-What are CNNs: [CNN Overview](overview_cnns.md)
-
 Generative Advesarial Networks called as GANs for short - [GAN Fundamentals](gan_overview.md)
+
+What are CNNs and Deep CNN based GAN: [CNN Overview and Deep CNN based GAN architecture](overview_cnns.md)
 
 Denoising Diffusion Probablistic Models / Diffusion Models - [Diffusion Model Fundamentals](diffusion_models_overview.md)
