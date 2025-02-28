@@ -61,3 +61,6 @@ These two neural networks ompete with one another to become more accurate in the
 ## Codes
 
 - [Building GAN using Dense Neural Network](gan_denseNN.ipynb)
+- [Building GAN using Convolutional Network](DeepConvolutionalGANs.ipynb)
+- [Building GAN using Convolutional Network for multi color data](DeepConvolutionalGANsMultichannelImages.ipynb)
+    - [Dataset for the multi color images](https://drive.google.com/file/d/1tDhtjVRAwCyLbjE4P_YGdBXLaWecaOuI/view?usp=sharing)

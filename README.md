@@ -19,5 +19,3 @@
 Generative Advesarial Networks called as GANs for short - [GAN Fundamentals](gan_overview.md)
 
 What are CNNs and Deep CNN based GAN: [CNN Overview and Deep CNN based GAN architecture](overview_cnns.md)
-
-Denoising Diffusion Probablistic Models / Diffusion Models - [Diffusion Model Fundamentals](diffusion_models_overview.md)
